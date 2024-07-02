@@ -48,6 +48,17 @@ Merging audio and video
 Merging is completed successfully
 ```
 
+## Example comparison
+Below are example images to demonstrate the difference in video quality:
+
+#### Low-Quality Video Capture
+![Figure 1: Capture from a low-quality video.](./normal-download-image.jpg)
+
+#### High-Quality Video Capture
+![Figure 2: Capture from the same video but in high quality using this script.](high-quality-download-image.jpg)
+
+These images highlight the significant improvement in video quality that can be achieved by using the high-quality download feature of this script.
+
 ## Notes
 - Make sure you have enough disk space for the downloaded video and audio files, as well as the final merged file.
 - If you encounter any issues during the download or merging process, ensure you have the latest versions of `pytube` and `ffmpeg` installed.
