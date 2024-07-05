@@ -36,8 +36,22 @@ The script will download the video and audio separately, then merge them into a 
 ## Example execution
 ```sh
 $ python main.py
+Select an option
+        1. Normal download (mp4 format)
+        2. High quality download (webm format)
+
+Enter the number of the option: 2
 Enter the YouTube video URL: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-Enter the video name: my_downloaded_video
+Enter the video name: example
+Select the resolution
+        1. 144p
+        2. 240p
+        3. 360p
+        4. 480p
+        5. 720p
+        6. 1080p
+
+Enter the number of the option: 5
 Download video is completed successfully
 Download audio is completed successfully
 Merging audio and video
@@ -68,3 +82,8 @@ If you would like to contribute to this project, you can do so in the following 
 - Reporting bugs
 - Suggesting improvements
 - Submitting pull requests with enhancements or fixes
+
+## TODO
+- Remove useless files created during download and merging
+- Improve error handling and user feedback
+- Improve cli interface 
